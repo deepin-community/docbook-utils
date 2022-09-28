@@ -1,0 +1,26 @@
+Source: docbook-utils
+Section: text
+Priority: optional
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Uploaders: Ardo van Rangelrooij <ardo@debian.org>, Mathieu Malaterre <malat@debian.org>
+Standards-Version: 3.9.3
+Build-Depends-Indep: debhelper (>= 7.0.50~), docbook-dsssl, openjade, perl, sgmlspl, opensp, autotools-dev, dh-autoreconf
+Homepage: http://sources.redhat.com/docbook-tools/
+Vcs-Browser: http://anonscm.debian.org/viewvc/debian-xml-sgml/packages/docbook-utils/
+Vcs-Svn: svn://svn.debian.org/debian-xml-sgml/packages/docbook-utils/trunk/
+
+Package: docbook-utils
+Architecture: all
+Depends: docbook-dsssl, jadetex, lynx | links | links2| w3m, sgmlspl, opensp, ${perl:Depends}, ${misc:Depends}
+Recommends: docbook-xml
+Replaces: docbook2man, docbook2texi, docbk-xml2x, docbook2x-doc, cygnus-stylesheets
+Multi-Arch: foreign
+Description: Convert DocBook files to other formats (HTML, RTF, PS, man, PDF)
+ The docbook-utils is a set of a few small programs intended to ease
+ everyday use of technical documentation software and more generally use of
+ SGML and XML.
+ .
+ Tasks they currently accomplish are:
+  * jw: convert DocBook files to other formats (HTML, RTF, Postscript, PDF).
+  * sgmldiff: detect the differences in markup between two SGML files.
+  * docbook2man: converts a DocBook refentry to a man page.
