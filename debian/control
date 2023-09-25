@@ -3,11 +3,11 @@ Section: text
 Priority: optional
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Uploaders: Ardo van Rangelrooij <ardo@debian.org>, Mathieu Malaterre <malat@debian.org>
-Standards-Version: 3.9.3
-Build-Depends-Indep: debhelper (>= 7.0.50~), docbook-dsssl, openjade, perl, sgmlspl, opensp, autotools-dev, dh-autoreconf
+Standards-Version: 4.6.0
+Build-Depends-Indep: debhelper (>= 11), docbook-dsssl, openjade, perl, sgmlspl, opensp, autotools-dev, dh-autoreconf
 Homepage: http://sources.redhat.com/docbook-tools/
-Vcs-Browser: http://anonscm.debian.org/viewvc/debian-xml-sgml/packages/docbook-utils/
-Vcs-Svn: svn://svn.debian.org/debian-xml-sgml/packages/docbook-utils/trunk/
+Vcs-Git: https://salsa.debian.org/xml-sgml-team/docbook-utils.git
+Vcs-Browser: https://salsa.debian.org/xml-sgml-team/docbook-utils
 
 Package: docbook-utils
 Architecture: all
