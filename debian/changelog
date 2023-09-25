@@ -1,3 +1,11 @@
+docbook-utils (0.6.14-4) unstable; urgency=medium
+
+  * d/compat: Migrate to compat 11. Closes: #965499
+  * d/control: Update Vcs URLs to new git location
+  * d/control: Bump Std-Vers to 4.6.0 no changes needed
+
+ -- Mathieu Malaterre <malat@debian.org>  Fri, 14 Jan 2022 15:36:16 +0100
+
 docbook-utils (0.6.14-3.4) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
